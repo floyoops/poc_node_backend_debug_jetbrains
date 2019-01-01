@@ -1,0 +1,23 @@
+{
+  "name": "nodejs_poc_debug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --mode production && node dist/server.js",
+    "build-development": "webpack --watch --mode development",
+    "build-production": "webpack --mode production"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "dotenv": "^6.2.0",
+    "dotenv-webpack": "^1.6.0",
+    "webpack": "^4.28.3",
+    "webpack-cli": "^3.1.2",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
