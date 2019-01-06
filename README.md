@@ -1,8 +1,8 @@
 ## Quick start
 ``` BASH
 cp .env.example .env
-npm i
-npm run start
+make install
+make start-prod
 ```
 go: http://localhost:3000/
 
@@ -14,8 +14,8 @@ go: http://localhost:3000/
 ### builder watch
 ``` BASH
 cp .env.example .env
-npm i
-npm run build-development
+make install
+make dev
 ```
 
 ### Debug
