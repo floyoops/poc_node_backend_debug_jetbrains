@@ -6,7 +6,7 @@ module.exports = {
     target: 'node',
     output: {
         path: require('path').join(__dirname, '/dist'),
-        filename: 'server.js'
+        filename: 'server.mjs'
     },
     devtool: "source-map",
     plugins: [
